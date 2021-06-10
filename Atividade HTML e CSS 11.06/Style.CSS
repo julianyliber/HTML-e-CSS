@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+.corpo{ 
+ background:url(fundoooo.webp);
+}
+.Titulo{
+color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Mate SC', serif;
+}
+.card-img-top{
+    width: 400px; /*largura*/
+    height: 250px; /*altura*/
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-deck{
+    padding: 15px;
+}
+
+.card{
+    box-shadow:  3px 4px 11px 1px rgb(160, 155, 155);
+}
+
+.efeito-card{
+    overflow: hidden
+}
+.efeito-card img {
+    max-width:100%;
+    -moz-transition:(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+}
+.efeito-card:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
